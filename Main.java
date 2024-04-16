@@ -1,6 +1,6 @@
-//Estructuras de Condicionales dobles  
+//Estructuras de Condicionales dobles// 
 
-Condicionalesdobleimport java.util.Scanner;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner a = new Scanner(System.in);
