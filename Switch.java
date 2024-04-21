@@ -1,7 +1,8 @@
+//Uso del switch//
+//Agregar un bucle//
 import java.util.Scanner;
-
 public class Switch {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Scanner lector= new Scanner(System.in);
         short opcion;
             System.out.println("Menú de opciones:");
