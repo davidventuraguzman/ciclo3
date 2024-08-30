@@ -28,15 +28,14 @@ public class Venta {
     public double getTotal() {
         return this.cantidad * this.precioUnitario;
     }
-
-    // Getters y setters
+    //Get
     public int getId() { return id; }
     public String getProducto() { return producto; }
     public int getCantidad() { return cantidad; }
     public double getPrecioUnitario() { return precioUnitario; }
     public String getFecha() { return fecha; }
     public String getCliente() { return cliente; }
-
+    //Set 
     public void setId(int id) { this.id = id; }
     public void setProducto(String producto) { this.producto = producto; }
     public void setCantidad(int cantidad) { this.cantidad = cantidad; }

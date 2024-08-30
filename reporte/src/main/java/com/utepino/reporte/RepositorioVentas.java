@@ -23,7 +23,7 @@ public class RepositorioVentas {
 
     public void generarReporteHTML(String archivo) {
         try (FileWriter writer = new FileWriter(archivo)) {
-            writer.write("<html><head><title>Reporte de Ventas</title></head><body>");
+            writer.write("<html><head><title>Ventas</title></head><body>");
             writer.write("<h1>Reporte de Ventas</h1>");
             writer.write("<table border='1'>");
             writer.write("<tr><th>ID</th><th>Producto</th><th>Cantidad</th><th>Precio Unitario</th><th>Fecha</th><th>Cliente</th><th>Total</th></tr>");
