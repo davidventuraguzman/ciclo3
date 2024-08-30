@@ -88,7 +88,7 @@ public class pagina {
 
     @Override
     public String toString() {
-        return "Alumno{" + "nombre=" + nombre + ", foto=" + foto + ", edad=" + edad + ", pc1=" + pc1 + ", pc2=" + pc2 + ", pc3=" + pc3 + ", ef=" + ef + '}';
+        return "Alumno{" + "nombre=" + nombre + ", foto=" + foto + ", edad=" + edad + ", pc1=" + pc1 + ", pc2=" + pc2 + ", pc3=" + pc3 + ", ef=" + ef;
     }
     
    
